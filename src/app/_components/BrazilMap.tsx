@@ -32,7 +32,7 @@ const MapChart: React.FC = () => {
         }}
       >
         <Geographies geography={geoUrl}>
-          {({ geographies }: { geographies: GeographyElement[] }) =>
+          {(geographies) =>
             geographies
               .filter((geo) => geo.properties.name === "Brazil")
               .map((geo: GeographyElement) => (

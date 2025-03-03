@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {Hero} from "@/app/_components/Hero";
 import {About} from "@/app/_components/About";
 import {MentalSupport} from "@/app/_components/MentalSupport";
