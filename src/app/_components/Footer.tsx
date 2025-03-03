@@ -1,9 +1,13 @@
 import Link from "next/link"
 import { Linkedin, Facebook, Twitter } from "lucide-react"
 
-export function Footer() {
+interface FooterProps {
+  backgroundColor?: string;
+}
+
+export function Footer({ backgroundColor = '#FFCF40' }: FooterProps) {
   return (
-    <div className="bg-[#FFCF40]">
+    <div style={{ backgroundColor }}>
     <section className="bg-black text-white rounded-[32px] px-8 py-6 max-w-7xl mx-auto">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">

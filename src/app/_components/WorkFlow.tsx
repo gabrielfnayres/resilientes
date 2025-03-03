@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import workflowImage from '../../../public/workflow_resilientes.png';
 
 export function WorkFlow() {
     return (
-        <section className="bg-gray-100 text-black relative overflow-hidden">
+        <section className="bg-gray-100 text-black relative overflow-hidden rounded-t-[48px]">
             <div className="container mx-auto py-16 px-4 relative">
                 <h1 className="text-3xl lg:text-5xl font-space leading-10 py-5">
                     Como funcionam as etapas?
@@ -29,10 +30,10 @@ export function WorkFlow() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex numquam voluptatum? Architecto a quos, laborum, inventore facilis assumenda repellendus quaerat fuga incidunt accusantium tempore et ipsa accusamus est neque.
                     </p>
                     
-                    <div className="flex justify-center w-full">
-                        <a href="#" className="bg-[#F2994A] text-black px-4 py-3 rounded-md font-semibold"> 
-                            Fale Conosco!
-                        </a>
+                    <div className="flex justify-center w-full gap-4">
+                        <Link href="#contato" className="bg-[#F2994A] text-black px-6 py-3 rounded-md font-semibold hover:bg-[#e68a35] transition-colors duration-300">
+                            Fale Conosco
+                        </Link>
                     </div>
                 </div>
             </div>

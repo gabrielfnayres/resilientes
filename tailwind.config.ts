@@ -8,6 +8,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'space-grotesk': ['var(--font-space-grotesk)', 'sans-serif'],
+      'noto-serif': ['var(--font-noto-serif)', 'serif'],
+    },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',

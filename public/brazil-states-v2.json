@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Acre", "code": "AC" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-70.5, -8.77], [-70.5, -11.5], [-66.6, -11.5], [-66.6, -8.77], [-70.5, -8.77]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Amazonas", "code": "AM" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-70.0, -2.0], [-70.0, -9.0], [-56.0, -9.0], [-56.0, -2.0], [-70.0, -2.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pará", "code": "PA" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-58.0, -1.0], [-58.0, -9.5], [-48.0, -9.5], [-48.0, -1.0], [-58.0, -1.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "São Paulo", "code": "SP" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-53.1, -20.5], [-53.1, -25.3], [-44.1, -25.3], [-44.1, -20.5], [-53.1, -20.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rio de Janeiro", "code": "RJ" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-44.8, -21.3], [-44.8, -23.4], [-40.9, -23.4], [-40.9, -21.3], [-44.8, -21.3]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Minas Gerais", "code": "MG" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-51.0, -14.2], [-51.0, -21.0], [-39.8, -21.0], [-39.8, -14.2], [-51.0, -14.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Bahia", "code": "BA" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-46.6, -9.3], [-46.6, -18.3], [-37.3, -18.3], [-37.3, -9.3], [-46.6, -9.3]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Distrito Federal", "code": "DF" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-48.3, -15.5], [-48.3, -16.0], [-47.3, -16.0], [-47.3, -15.5], [-48.3, -15.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rio Grande do Sul", "code": "RS" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-57.6, -27.1], [-57.6, -33.7], [-49.7, -33.7], [-49.7, -27.1], [-57.6, -27.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pernambuco", "code": "PE" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-41.3, -7.3], [-41.3, -9.5], [-34.8, -9.5], [-34.8, -7.3], [-41.3, -7.3]]]
+      }
+    }
+  ]
+}

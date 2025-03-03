@@ -1,6 +1,6 @@
 export function MentalSupport() {
     return (
-        <section className="bg-gray-100 text-black relative overflow-hidden">
+        <section className="bg-gray-100 text-black relative overflow-hidden rounded-t-[48px]">
             <div className="container mx-auto py-16 px-4 relative">
                 <div className="text-3xl md:text-4xl lg:text-5xl font-space leading-10 py-10">
                     <h1>Encontre seu suporte para saúde mental</h1>

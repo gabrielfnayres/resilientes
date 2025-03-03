@@ -13,7 +13,7 @@ export default function Home() {
       <MentalSupport />
       <WorkFlow />
       <ContactUs />
-      <Footer />
+      <Footer backgroundColor="#FFCF40"/>
     </main>
   );
 }
