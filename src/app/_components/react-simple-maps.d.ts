@@ -10,6 +10,7 @@ declare module 'react-simple-maps' {
     width?: number;
     height?: number;
     style?: React.CSSProperties;
+    children?: React.ReactNode;
   }
 
   interface GeographyElement {
